@@ -1,0 +1,82 @@
+
+	*{margin:0px;
+	padding:0px;}
+	header{display:flex;
+	height:150px;
+	background-color:#008822;
+	justify-content:space-around;
+	width:100%;
+	align-items: center;}
+	
+	#logo a img{height:100px; width:100px;}
+	h1{color:#fff;}
+	a{text-decoration:none;}
+	nav ul{
+		list-style-type:none;
+		width:50%;
+		display:flex; 
+		flex-direction:row; 
+		}
+		
+	nav li{
+		padding: 10px;
+		margin-left: 20px;
+		font-size: 24px;
+	}
+	nav li a:link{
+	color: #fff;}
+	nav li a:visited{
+		color:#fff;
+		}
+	nav li a:hover{color:#000;}
+	
+	.aktivna{
+		border: 3px solid white;
+		border-radius: 10px;
+	}
+
+#pozadina img{position:relative;
+width:100%;
+height:50%;}
+
+	 h2{
+	 font-size:50px;
+	 text-align:center;
+	 color:#fff;}
+
+.razrada {width:100%;
+background-color:#008822;
+ font-size:40px;
+ color:#fff;
+ }
+
+h6{font-size:30px;
+text-align:center;
+color:#fff}
+.razrada img{
+background-color:#008822;}
+
+#okvir{width:100%;
+margin:20 auto; 
+display:flex;
+ justify-content:space-evenly;}
+.centar h3{font-size:30px; margin-bottom:20px; text-align:center;}
+#novo{ 
+margin-bottom:20px; padding:20px; display:flex; justify-content:space-around;}
+.slika1{float:left; width:20%;border:3px solid; border-radius:20px 20px 20px 20px; background-color:#c0c0c0;}
+.slika1 img{width:100%; height:200px;}
+.slika2{ width:20%; height:300px; margin-right:2%; border:3px solid; border-radius:20px 20px 20px 20px; background-color:#c0c0c0;}
+.slika2 img{width:100%; height: 200px;}
+.slika3{float:left; width:20%; height:300px;border:3px solid; border-radius:20px 20px 20px 20px; background-color:#c0c0c0;}
+.slika3 img{width:100%; height:200px;}
+figcaption{text-align:center; font-size:30px; margin-top:20px;} 
+footer{display:flex; width:100%;  position:relative; background-color:#008822; justify-content: space-around;}
+footer p {background-color:#008822; color:#fff;}
+#ikonice{display: flex; flex-direction: row;}
+#ikonice a img{ justify-content:space-between; width:100%; height:50px;} 
+footer a img{background-color:#008822;}
+a{background-color :none; position:relative;}	
+
+
+
+	
